@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -36,7 +36,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * <p>Description:</p>
  *
- * @author xiaoyu(Myth)
+ * @author root(Myth)
  * @version 1.0
  * @date 2017/10/20 16:01
  * @since JDK 1.8

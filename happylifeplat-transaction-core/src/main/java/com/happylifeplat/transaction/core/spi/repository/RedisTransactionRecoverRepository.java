@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -19,10 +19,10 @@ package com.happylifeplat.transaction.core.spi.repository;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
-import com.happylifeplat.transaction.common.bean.TransactionInvocation;
-import com.happylifeplat.transaction.common.bean.adapter.TransactionRecoverAdapter;
+import com.happylifeplat.transaction.common.bean.TransactionRecover;
+import com.happylifeplat.transaction.common.config.TxConfig;
+import com.happylifeplat.transaction.common.config.TxRedisConfig;
 import com.happylifeplat.transaction.common.enums.CompensationCacheTypeEnum;
-import com.happylifeplat.transaction.common.exception.TransactionException;
 import com.happylifeplat.transaction.common.exception.TransactionIoException;
 import com.happylifeplat.transaction.common.exception.TransactionRuntimeException;
 import com.happylifeplat.transaction.common.holder.LogUtil;
@@ -32,10 +32,6 @@ import com.happylifeplat.transaction.common.jedis.JedisClient;
 import com.happylifeplat.transaction.common.jedis.JedisClientCluster;
 import com.happylifeplat.transaction.common.jedis.JedisClientSingle;
 import com.happylifeplat.transaction.common.serializer.ObjectSerializer;
-import com.happylifeplat.transaction.common.bean.TransactionRecover;
-import com.happylifeplat.transaction.common.config.TxConfig;
-import com.happylifeplat.transaction.common.config.TxRedisConfig;
-import com.happylifeplat.transaction.core.helper.ByteUtils;
 import com.happylifeplat.transaction.core.helper.RedisHelper;
 import com.happylifeplat.transaction.core.spi.TransactionRecoverRepository;
 import org.apache.commons.lang3.StringUtils;
@@ -52,7 +48,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 public class RedisTransactionRecoverRepository implements TransactionRecoverRepository {
 

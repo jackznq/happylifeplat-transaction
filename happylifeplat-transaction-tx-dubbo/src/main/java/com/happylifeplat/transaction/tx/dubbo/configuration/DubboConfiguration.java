@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -19,10 +19,9 @@ package com.happylifeplat.transaction.tx.dubbo.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.context.annotation.ImportResource;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @Configuration
 @EnableAspectJAutoProxy(proxyTargetClass=true)

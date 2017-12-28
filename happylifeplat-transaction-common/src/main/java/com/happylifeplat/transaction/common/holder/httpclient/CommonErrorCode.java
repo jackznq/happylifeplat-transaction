@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -28,7 +28,7 @@ import org.apache.commons.lang3.StringUtils;
  * 错误码组成:由系统编码:+4位顺序号组成:0000+0000共8位
  * 错误码定义范围<br/>
  * 负数为非明确定义错误
- * @author xiaoyu
+ * @author root
  * @version 1.0
  * @date 2017 /3/1 11:52
  * @since JDK 1.8

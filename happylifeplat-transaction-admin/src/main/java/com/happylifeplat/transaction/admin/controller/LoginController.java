@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -18,20 +18,18 @@
 
 package com.happylifeplat.transaction.admin.controller;
 
-import com.happylifeplat.transaction.admin.annotation.Permission;
 import com.happylifeplat.transaction.admin.dto.UserDTO;
 import com.happylifeplat.transaction.admin.service.LoginService;
 import com.happylifeplat.transaction.common.holder.httpclient.AjaxResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>Description: .</p>
  *
- * @author xiaoyu(Myth)
+ * @author root(Myth)
  * @version 1.0
  * @date 2017/10/20 10:11
  * @since JDK 1.8

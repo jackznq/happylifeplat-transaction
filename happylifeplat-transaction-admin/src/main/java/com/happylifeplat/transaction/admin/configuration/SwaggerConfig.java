@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -38,7 +38,7 @@ import java.time.LocalDate;
 import static com.google.common.collect.Lists.newArrayList;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @Configuration
 @EnableSwagger2
@@ -55,7 +55,7 @@ public class SwaggerConfig {
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
                 .termsOfServiceUrl("")
                 .version(VERSION)
-                .contact(new Contact("xiaoyu", "", "549477611@qq.com"))
+                .contact(new Contact("root", "", "549477611@qq.com"))
                 .build();
     }
 

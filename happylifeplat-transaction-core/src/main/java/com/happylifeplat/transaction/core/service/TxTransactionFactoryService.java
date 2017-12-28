@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -20,7 +20,7 @@ package com.happylifeplat.transaction.core.service;
 import com.happylifeplat.transaction.common.bean.TxTransactionInfo;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @FunctionalInterface
 public interface TxTransactionFactoryService<T> {

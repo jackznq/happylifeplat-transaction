@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -18,19 +18,17 @@
 package com.happylifeplat.transaction.core.spi.repository;
 
 import com.google.common.collect.Lists;
+import com.happylifeplat.transaction.common.bean.TransactionRecover;
+import com.happylifeplat.transaction.common.config.TxConfig;
 import com.happylifeplat.transaction.common.enums.CompensationCacheTypeEnum;
 import com.happylifeplat.transaction.common.exception.TransactionRuntimeException;
 import com.happylifeplat.transaction.common.holder.RepositoryPathUtils;
 import com.happylifeplat.transaction.common.holder.TransactionRecoverUtils;
 import com.happylifeplat.transaction.common.serializer.ObjectSerializer;
-import com.happylifeplat.transaction.common.bean.TransactionRecover;
-import com.happylifeplat.transaction.common.config.TxConfig;
 import com.happylifeplat.transaction.core.spi.TransactionRecoverRepository;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -39,7 +37,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @SuppressWarnings("unchecked")
 public class FileTransactionRecoverRepository implements TransactionRecoverRepository {

@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -31,7 +31,7 @@ import java.util.Collections;
 import java.util.Objects;
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @Service
 public class NettyMessageServiceImpl implements TxManagerMessageService {

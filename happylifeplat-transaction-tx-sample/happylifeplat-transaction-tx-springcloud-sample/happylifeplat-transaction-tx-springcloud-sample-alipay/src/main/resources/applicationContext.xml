@@ -24,7 +24,7 @@
         <property name="txRedisConfig">
             <bean class="com.happylifeplat.transaction.common.config.TxRedisConfig">
                 <property name="hostName"
-                          value="192.168.1.68"/>
+                          value="127.0.0.1"/>
                 <property name="port" value="6379"/>
                 <property name="password" value=""/>
             </bean>
@@ -37,10 +37,10 @@
         <property name="txDbConfig">
          <bean class="com.happylifeplat.transaction.common.config.TxDbConfig">
                 <property name="url"
-                          value="jdbc:mysql://192.168.1.68:3306/tx?useUnicode=true&amp;characterEncoding=utf8"/>
+                          value="jdbc:mysql://127.0.0.1:3306/tx?useUnicode=true&amp;characterEncoding=utf8"/>
                 <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-                <property name="password" value="Wgj@555888"/>
-                <property name="username" value="xiaoyu"/>
+                <property name="password" value="ddfh,,"/>
+                <property name="username" value="root"/>
             </bean>
         </property>
 
@@ -49,7 +49,7 @@
           <property name="txRedisConfig">
             <bean class="com.happylifeplat.transaction.common.config.TxRedisConfig">
                 <property name="hostName"
-                          value="192.168.1.68"/>
+                          value="127.0.0.1"/>
                 <property name="port" value="6379"/>
                 <property name="password" value=""/>
             </bean>
@@ -68,9 +68,9 @@
          <property name="compensationCacheType" value="mongodb"/>
          <property name="txMongoConfig">
          <bean class="com.happylifeplat.transaction.common.config.TxMongoConfig">
-                       <property name="mongoDbUrl"  value="192.168.1.68:27017"/>
+                       <property name="mongoDbUrl"  value="127.0.0.1:27017"/>
                 <property name="mongoDbName" value="happylife"/>
-                <property name="mongoUserName" value="xiaoyu"/>
+                <property name="mongoUserName" value="root"/>
                 <property name="mongoUserPwd" value="123456"/>
             </bean>
         </property>

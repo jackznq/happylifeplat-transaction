@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -20,13 +20,15 @@ package com.happylifeplat.transaction.tx.dubbo.sample.stock;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 
 
 /**
- * @author xiaoyu
+ * @author root
  */
 @SpringBootApplication
+@Configuration
 @ImportResource({"classpath:applicationContext.xml"})
 @MapperScan("com.happylifeplat.transaction.tx.dubbo.sample.stock.mapper")
 public class StockApplication {

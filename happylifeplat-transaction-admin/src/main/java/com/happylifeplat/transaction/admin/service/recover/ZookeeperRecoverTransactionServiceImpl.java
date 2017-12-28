@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -19,17 +19,14 @@
 package com.happylifeplat.transaction.admin.service.recover;
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
 import com.happylifeplat.transaction.admin.helper.ConvertHelper;
 import com.happylifeplat.transaction.admin.helper.PageHelper;
 import com.happylifeplat.transaction.admin.page.CommonPager;
 import com.happylifeplat.transaction.admin.query.RecoverTransactionQuery;
 import com.happylifeplat.transaction.admin.service.RecoverTransactionService;
 import com.happylifeplat.transaction.admin.vo.TransactionRecoverVO;
-import com.happylifeplat.transaction.common.bean.TransactionRecover;
 import com.happylifeplat.transaction.common.bean.adapter.TransactionRecoverAdapter;
 import com.happylifeplat.transaction.common.exception.TransactionException;
-import com.happylifeplat.transaction.common.exception.TransactionIoException;
 import com.happylifeplat.transaction.common.holder.DateUtils;
 import com.happylifeplat.transaction.common.holder.RepositoryPathUtils;
 import com.happylifeplat.transaction.common.serializer.ObjectSerializer;
@@ -42,7 +39,6 @@ import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -51,7 +47,7 @@ import java.util.stream.Collectors;
  * <p>Description: .</p>
  * zookeeper实现
  *
- * @author xiaoyu(Myth)
+ * @author root(Myth)
  * @version 1.0
  * @date 2017/10/19 17:08
  * @since JDK 1.8

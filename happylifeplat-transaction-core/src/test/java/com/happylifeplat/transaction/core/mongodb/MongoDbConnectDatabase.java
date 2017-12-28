@@ -22,7 +22,7 @@ public class MongoDbConnectDatabase {
             addrs.add(serverAddress);
 
             //MongoCredential.createScramSha1Credential()三个参数分别为 用户名 数据库名称 密码
-            MongoCredential credential = MongoCredential.createScramSha1Credential("xiaoyu", "happylife", "123456".toCharArray());
+            MongoCredential credential = MongoCredential.createScramSha1Credential("root", "happylife", "123456".toCharArray());
             List<MongoCredential> credentials = new ArrayList<>();
             credentials.add(credential);
 

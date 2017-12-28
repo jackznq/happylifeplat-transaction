@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2017-2018 549477611@qq.com(xiaoyu)
+ * Copyright 2017-2018 549477611@qq.com(root)
  *
  * This copyrighted material is made available to anyone wishing to use, modify,
  * copy, or redistribute it subject to the terms and conditions of the GNU
@@ -22,7 +22,7 @@ package com.happylifeplat.transaction.common.holder.httpclient;
 import java.io.Serializable;
 
 /**
- * @author  xiaoyu
+ * @author  root
  * @version 1.0
  * @date 2017 /3/1 11:52
  * @since JDK 1.8
