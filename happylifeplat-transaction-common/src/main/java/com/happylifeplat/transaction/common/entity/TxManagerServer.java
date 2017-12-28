@@ -17,7 +17,7 @@
  */
 package com.happylifeplat.transaction.common.entity;
 
-import lombok.Data;
+import lombok.Data ;
 
 /**
  * @author root
